@@ -9,12 +9,13 @@ using namespace std;
 			suc=(4/x);
 			phi+=suc;
 				if(suc<0){
-					x=(x-2)*(-1);
+					x=(x-2)*(-1);                      //Ingreso dos condiciones para que se alterne la suma y resta como dice la fórmula de Leibniz
 				}
 				else if(suc>0){
 					x=(x+2)*(-1);
-				}
-										
+				}					    //Si suc es negativo, entonces restale dos y convertilo en positivo. Si es positivo, sumale dos y convertilo en negativo.
+		
+									    
 		}
 		
 		cout<<setprecision(7)<<phi;
